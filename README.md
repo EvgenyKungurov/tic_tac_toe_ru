@@ -17,7 +17,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: require 'tic_tac_toe_ru'
+require 'tic_tac_toe_ru'
+
+Check version:
+
+    $ TicTacToeRu.version
 
 Create two players:
 
