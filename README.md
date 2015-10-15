@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 TicTacToe console game
 =======
 Another version console game. While the game supports play against real people. Computer player will be later.
