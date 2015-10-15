@@ -1,3 +1,4 @@
+# coding: utf-8
 module TicTacToeRu
   class Game
     attr_accessor :current_player, :other_player

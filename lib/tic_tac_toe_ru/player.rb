@@ -1,3 +1,4 @@
+# coding: utf-8
 module TicTacToeRu
 	class Player
 		attr_reader :name, :symbol

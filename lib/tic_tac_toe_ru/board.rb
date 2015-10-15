@@ -1,3 +1,4 @@
+# coding: utf-8
 module TicTacToeRu
   class Board
     attr_reader :board
