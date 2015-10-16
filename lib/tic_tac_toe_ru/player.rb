@@ -2,13 +2,13 @@
 module TicTacToeRu
 	class Player
 		attr_reader :name, :symbol
-		NAME = %w(Квася Кпутя Коко)
+		NAMES = %w(Квася Кпутя Коко)
 
 		def initialize(data = {})
 			@name = if data.has_key? :name
                 data.fetch(:name)
               else
-                NAME.sample
+                NAMES.sample
               end
 			@symbol = data.fetch(:symbol)
 		end
