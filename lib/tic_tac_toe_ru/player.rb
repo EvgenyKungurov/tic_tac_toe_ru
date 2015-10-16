@@ -1,16 +1,18 @@
 # coding: utf-8
 module TicTacToeRu
-	class Player
-		attr_reader :name, :symbol
-		NAMES = %w(Квася Кпутя Коко)
+  class Player
+    NAMES = %w(Квася Кпутя Коко)
 
-		def initialize(data = {})
-			@name = if data.has_key? :name
-                data.fetch(:name)
-              else
-                NAMES.sample
-              end
-			@symbol = data.fetch(:symbol)
-		end
-	end
+    attr_reader :name, :symbol
+
+    def initialize(data = {})
+      @name =
+        if data.key? :name
+          data.fetch(:name)
+        else
+          NAMES.sample
+        end
+      @symbol = data.fetch(:symbol)
+    end
+  end
 end
